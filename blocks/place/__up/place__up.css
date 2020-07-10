@@ -1,0 +1,16 @@
+.place__up {
+  display: flex;
+  align-items: flex-end;
+}
+
+@media screen and (min-width: 320px) {
+  .place__up {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place__up {
+    flex-wrap: nowrap;
+  }
+}

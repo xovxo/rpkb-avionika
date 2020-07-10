@@ -1,0 +1,44 @@
+@import url(_map/lead__image_map.css);
+
+.lead__image {
+  background-image: url(../../../images/kabina_samoleta.jpg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  align-items: center;
+  justify-content: flex-end;
+  mix-blend-mode: unset;
+}
+
+@media screen and (min-width: 320px) {
+  .lead__image {
+    max-width: 320px;
+    min-height: 200px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lead__image {
+    max-width: 768px;
+    min-height: 480px;
+    margin-top: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__image {
+    max-width: 928px;
+    min-height: 580px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__image {
+    min-height: 615px;
+    min-width: 984px;
+    margin-top: 64px;
+  }
+}

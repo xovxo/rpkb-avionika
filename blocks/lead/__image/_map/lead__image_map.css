@@ -1,0 +1,36 @@
+.lead__image_map {
+  background-image: url(../../../../images/map.png);
+  background-size: contain;
+  margin: 0 auto;
+  text-align: center;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 320px) {
+  .lead__image_map {
+    width: 304.74px;
+    height: 85.53px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lead__image_map {
+    width: 731.38px;
+    height: 205.26px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__image_map {
+    width: 883.76px;
+    height: 248.02px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__image_map {
+    height: 262.99px;
+    width: 937.09px;
+  }
+}

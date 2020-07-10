@@ -1,0 +1,15 @@
+.place__down {
+  display: flex;
+}
+
+@media screen and (min-width: 320px) {
+  .place__down {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place__down {
+    flex-wrap: nowrap;
+  }
+}

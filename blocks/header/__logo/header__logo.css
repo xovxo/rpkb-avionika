@@ -1,0 +1,8 @@
+@import url(_mgtu/header__logo_mgtu.css);
+@import url(_rkpb/header__logo_rkpb.css);
+
+.header__logo {
+  background-size: contain;
+  margin-top: 40px;
+  background-repeat: no-repeat;
+}

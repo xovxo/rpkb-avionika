@@ -1,0 +1,17 @@
+.header__logo_mgtu {
+  background-image: url(../../../../images/MGTU.png);
+}
+
+@media screen and (min-width: 320px) {
+  .header__logo_mgtu {
+    width: 51px;
+    height: 62px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__logo_mgtu {
+    width: 70px;
+    height: 75px;
+  }
+}
