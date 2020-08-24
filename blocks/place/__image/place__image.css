@@ -26,3 +26,8 @@
     max-height: 460px;
   }
 }
+
+
+.place__image:first-child {
+  background-color: white;
+}
